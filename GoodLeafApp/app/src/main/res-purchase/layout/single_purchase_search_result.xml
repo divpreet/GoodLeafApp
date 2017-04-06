@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/purchaseTableResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:layout_columnSpan="6"
+    android:layout_row="10"
+    android:layout_rowSpan="2"
+    android:orientation="horizontal"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/purchaseNumberSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/purchaseNumberLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/purchase_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/purchaseNumberResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/purchaseDateSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/purchaseDateLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/purchase_date"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/purchaseDateResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/purchasePriceSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/purchasePriceLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/purchase_value"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/purchasePriceResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/supplierSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_name"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/supplierResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/purchaseStatusSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/purchaseStatusLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/status"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/purchaseStatusResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/purchaseSaveOrCancelSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:paddingTop="5dip" android:paddingRight="5dip">
+        <Button android:id="@+id/savePurchase" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_column="1"
+            android:layout_columnSpan="6" android:layout_row="14" android:layout_rowSpan="2"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/save_purchase"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>

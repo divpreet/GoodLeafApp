@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customerTableResult" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_column="1"
+    android:layout_columnSpan="6" android:layout_row="10" android:layout_rowSpan="2"
+    android:orientation="horizontal" android:stretchColumns="*">
+
+    <TableRow android:id="@+id/customerNumberSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+
+        <TextView android:id="@+id/customerNumberLabel" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_number"
+            android:textColor="@color/white" android:textSize="13sp" />
+
+        <TextView android:id="@+id/customerNumberResult" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/customerNameSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerNameLabel" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_name"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerNameResult" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/customerBusinessNameSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerBusinessNameLabel" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/business_name"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerBusinessNameResult" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/customerAddressSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerAddressLabel" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_address"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerAddressResult" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+
+    <TableRow android:id="@+id/customerContactSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerContact" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_contact"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerContactResult" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+
+    <TableRow android:id="@+id/customerAddress1SearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerAddress1Label" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_address2"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerAddress1Result" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+
+    <TableRow android:id="@+id/customerContact1SearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:background="#21C34C" android:paddingTop="5dip">
+        <TextView android:id="@+id/customerContact1Label" android:layout_width="0dp"
+            android:layout_weight="4" android:paddingBottom="8dp" android:paddingLeft="4dp"
+            android:paddingRight="4dp" android:paddingTop="8dp" android:text="@string/customer_contact2"
+            android:textColor="@color/white" android:textSize="13sp" />
+        <EditText android:id="@+id/customerContact1Result" android:layout_width="0dp" android:layout_weight="6"
+            android:paddingBottom="8dp" android:paddingLeft="4dp" android:paddingRight="4dp"
+            android:paddingTop="8dp" android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/customerSaveOrCancelSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:paddingTop="5dip" android:paddingRight="5dip">
+        <Button android:id="@+id/saveCustomer" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_column="1"
+            android:layout_columnSpan="6" android:layout_row="14" android:layout_rowSpan="2"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/save_customer"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>

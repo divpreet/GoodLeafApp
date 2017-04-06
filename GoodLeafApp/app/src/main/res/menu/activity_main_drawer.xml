@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_order"
+            android:title="Order Details" />
+        <item
+            android:id="@+id/nav_purchase"
+            android:title="Purchase Details" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:title="Transaction Details" />
+        <item
+            android:id="@+id/nav_shipping"
+            android:title="Shipment Details" />
+    </group>
+
+    <item android:title="View">
+        <menu>
+            <item
+                android:id="@+id/nav_customer"
+                android:title="Customers" />
+            <item
+                android:id="@+id/nav_supplier"
+                android:title="Suppliers" />
+            <item
+                android:id="@+id/nav_products"
+                android:title="Products" />
+        </menu>
+    </item>
+
+</menu>

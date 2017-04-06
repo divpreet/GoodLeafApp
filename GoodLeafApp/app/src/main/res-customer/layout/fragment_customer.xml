@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <Button android:id="@+id/addCustomer" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/add_new_customer_details" />
+
+    <Button android:id="@+id/searchCustomer"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/search_and_modify_customer_details" />
+
+    <FrameLayout android:id="@+id/content_customer" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

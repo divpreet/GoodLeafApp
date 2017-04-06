@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/deleteOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_orders" />
+
+    <Button
+        android:id="@+id/deletePurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_purchases" />
+    <Button
+        android:id="@+id/deleteTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_transactions" />
+
+    <Button
+        android:id="@+id/deleteShipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_shipments" />
+    <Button
+        android:id="@+id/deleteCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_customers" />
+
+    <Button
+        android:id="@+id/deleteSupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_suppliers" />
+
+    <Button
+        android:id="@+id/deleteProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_products" />
+    <Button
+        android:id="@+id/dropAndUpgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drop_and_upgrade_all_tables" />
+</LinearLayout>

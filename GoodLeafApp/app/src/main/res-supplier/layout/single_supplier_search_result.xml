@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/supplierTableResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:layout_columnSpan="6"
+    android:layout_row="10"
+    android:layout_rowSpan="2"
+    android:orientation="horizontal"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/supplierNumberSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierNumberLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/supplierNumberResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/supplierNameSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierNameLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_name"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierNameResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/supplierBusinessNameSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierBusinessNameLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/business_name"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierBusinessNameResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/supplierAddressSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierAddressLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_address"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierAddressResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/supplierContactSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierContact"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_contact"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierContactResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/supplierAccountNumberSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierAccountNumberLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_account_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierAccountNumberResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/supplierAccountNameSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierAccountNameLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_account_name"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierAccountNameResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/supplierBankNameSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierBankNameLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_bank_name"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierBankNameResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/supplierBankCodeSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/supplierBankCodeLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/supplier_bank_code"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/supplierBankCodeResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/supplierSaveOrCancelSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:paddingTop="5dip" android:paddingRight="5dip">
+        <Button android:id="@+id/saveSupplier" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_column="1"
+            android:layout_columnSpan="6" android:layout_row="14" android:layout_rowSpan="2"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/save_supplier"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>

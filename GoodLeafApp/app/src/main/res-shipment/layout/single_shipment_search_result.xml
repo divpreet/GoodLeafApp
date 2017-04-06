@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shipmentTableResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:layout_columnSpan="6"
+    android:layout_row="10"
+    android:layout_rowSpan="2"
+    android:orientation="horizontal"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/shipmentNumberSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentNumberLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/shipment_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shipmentNumberResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentDateSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentDateLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/shipment_date"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shipmentDateResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentOrderNoSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentOrderNoLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/order_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shipmentOrderNoResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentProductNameSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentProductNameLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/product_description"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shipmentProductNameResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentProductQuantitySearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentProductQuantityLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:labelFor="@+id/shipmentProductQuantityResult"
+            android:text="@string/quantity"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/shipmentProductQuantityResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentValueSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentValueLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/shipment_value"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shipmentValueResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/shipmentMiscChargesSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/shipmentMiscChargesLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:labelFor="@+id/shipmentMiscChargesResult"
+            android:text="@string/quantity"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/shipmentMiscChargesResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+    <TableRow android:id="@+id/shipmentSaveOrCancelSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:paddingTop="5dip" android:paddingRight="5dip">
+        <Button android:id="@+id/saveShipment" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_column="1"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/save_shipment"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>

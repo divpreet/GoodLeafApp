@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transactionTableResult"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:layout_columnSpan="6"
+    android:layout_row="10"
+    android:layout_rowSpan="2"
+    android:orientation="horizontal"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/transactionNumberSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionNumberLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/transaction_number"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/transactionNumberResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/transactionDateSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionDateLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/transaction_date"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/transactionDateResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/transactionWithSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionWithLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/transaction_with"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/transactionWithResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/transactionDescriptionSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionDescriptionLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/description"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/transactionDescriptionResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/transactionValueSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionValueLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/amount"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/transactionValueResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </TableRow>
+
+    <TableRow android:id="@+id/transactionDebitCreditSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+        <RadioGroup android:layout_column="0"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioButtonGroupForDebitCreditLabel"
+            android:layout_columnSpan="8" android:layout_row="12" android:layout_rowSpan="1">
+            <RadioButton
+                android:text="@string/debit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonDebitResult" />
+
+            <RadioButton
+                android:text="@string/credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButtonCreditResult" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/transactionTypeSearchResult"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#21C34C"
+        android:paddingTop="5dip">
+
+        <TextView
+            android:id="@+id/transactionTypeLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/transaction_type"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/transactionTypeResult"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </TableRow>
+    <TableRow android:id="@+id/transactionSaveOrCancelSearchResult" android:layout_width="fill_parent"
+        android:layout_height="match_parent" android:paddingTop="5dip" android:paddingRight="5dip">
+        <Button android:id="@+id/saveTransaction" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_column="1"
+            android:layout_columnSpan="6" android:layout_row="14" android:layout_rowSpan="2"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:text="@string/save_transaction"
+            android:textSize="13sp" />
+    </TableRow>
+
+</TableLayout>
